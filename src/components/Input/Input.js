@@ -6,8 +6,11 @@ function Input() {
   const { list, setList } = useList();
   // console.log(list);
   return (
-    <>
-      This is Input component
+    <>This is Input component
+      <br />
+      <br />
+      Yapılacak işi giriniz.
+      <br />
       <br />
       <div>
         <input
