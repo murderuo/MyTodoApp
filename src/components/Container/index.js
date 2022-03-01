@@ -4,7 +4,7 @@ import List from '../List/List';
 
 import { useTheme } from '../../context/ThemeContext';
 function Container() {
-  const { theme, setTheme } = useTheme();
+  const { theme } = useTheme();
   console.log(theme);
   return (
     <div style={{ backgroundColor: theme }}>
